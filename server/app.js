@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 var transporter = nodemailer.createTransport(smtpTransport({
     service: 'yahoo',
     auth: {
-        user: 'x',
-        pass: 'x'
+        user: '',
+        pass: ''
     }
 }));
 
