@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+      <title> Node Mailer Template </title>
+        <script type="text/javascript" src="/vendors/angular.min.js"></script>
+        <script type="text/javascript" src="/scripts/client.js"></script>
+        <script type="text/javascript" src="/vendors/notyf.min.js"></script>
+          <link rel="stylesheet" href="/vendors/notyf.min.css"/>
+          <link rel="stylesheet" href="/styles/styles.css"/>
+  </head>
+  <body ng-controller="MailController as mc">
+    <form class="" action="index.html" method="post">
+      <div>
+        <p> Send Email To: </p>
+          <input ng-model="mc.mailObject.toEmail" type="text">
+      </div>
+      <div>
+        <p> Subject: </p>
+          <textarea ng-model="mc.mailObject.subject" name="name" rows="4" cols="80"></textarea>
+      </div>
+      <div>
+        <p> Message: </p>
+          <textarea ng-model="mc.mailObject.message" name="name" rows="12" cols="80"></textarea>
+      </div>
+      <div>
+        <button ng-click="mc.submitForm(mc.mailObject)" type="button" name="button"> Send Email </button>
+      </div>
+    </form>
+  </body>
+</html>
