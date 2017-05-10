@@ -15,8 +15,11 @@
   1. Download zip file
   2. Open terminal and navigate into folder
   3. Run commands:
-    - ``` npm install ```
-    Installs Node Packages
+    - Installs Node Packages: ``` npm install ```
+  4. Start server with:
+    - ``` npm start ```
+  5. Start nodemon with:
+    - ``` npm test ```
 
 * note:
 App was written with intended use with an Yahoo account.  This app will work with Gmail account but will need some services turned off in your Google account.  You will also need to update this code:

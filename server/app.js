@@ -1,3 +1,7 @@
+
+DotEnv = require('dotenv-node');
+new DotEnv();
+
 var express = require('express');
 var app = express();
 var path = require('path');
@@ -15,8 +19,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 var transporter = nodemailer.createTransport(smtpTransport({
     service: 'yahoo',
     auth: {
-        user: '',
-        pass: ''
+        user: process.env.ACCOUNT_NAME,
+        pass: process.env.ACCOUNT_PASSWORD
     }
 }));
 
