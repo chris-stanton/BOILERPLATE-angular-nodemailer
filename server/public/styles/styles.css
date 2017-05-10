@@ -1,4 +1,6 @@
-
+html {
+  background-image: url('/images/background.jpg');
+}
 form {
   text-align: center;
 }
@@ -8,18 +10,25 @@ input {
   height: 25px;
   font-size: 15px;
   margin: -20px 0px 35px 0px;
+  background-color: black;
+  color: white;
 }
 
 textarea {
   margin: -10px 0px 35px 0px;
   font-size: 13px;
+  background-color: black;
+  color: white;
 }
 
 button {
   font-size: 20px;
+  background-color: black;
+  color: white;
 }
 
 p {
   font-size: 25px;
-  text-shadow: 1px 1px #159df4;
+  /*text-shadow: 3px 3px #129fee;*/
+  color: white;
 }
