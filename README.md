@@ -1,4 +1,9 @@
 # Node Mailer Example
+#### Working version of Nodemailer.js using Angular as the fron-end, HTTP for server-side communication and Express.js on the back-end.
+
+<img src="./server/public/images/screenshots/screenshot.png" width="50%">
+
+---
 
 ## Technologies Used
   1. Angular
@@ -10,6 +15,7 @@
   7. Notyf
   8. dotenv-node
 
+---
 
 ## How To Install App
   1. Download zip file
@@ -20,6 +26,7 @@
     - ``` npm start ```
   5. Start nodemon with:
     - ``` npm test ```
+  6. App listening on ``http://localhost:5000/``
 
 * note:
 App was written with intended use with an Yahoo account.  This app will work with Gmail account but will need some services turned off in your Google account.  You will also need to update this code:
@@ -32,7 +39,6 @@ App was written with intended use with an Yahoo account.  This app will work wit
   }
 ```
 found in ``` app.js ```
-
 
 ---
 
